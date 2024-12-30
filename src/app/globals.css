@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+  font-family: 'Inter', sans-serif; /* Fonte futurista */
+  background-color: #0D1117; /* Fundo escuro */
+  color: #EDEDED; /* Texto claro */
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+a {
+  color: #58A6FF; /* Azul vibrante para links */
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+button {
+  background-color: #21262D;
+  color: #EDEDED;
+  border: 1px solid #58A6FF;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+  background-color: #58A6FF;
+  color: #0D1117;
+  transform: scale(1.05);
+}
