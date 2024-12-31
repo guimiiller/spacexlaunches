@@ -1,36 +1,27 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# SpaceX Rockets
 
-## Getting Started
+![preview](./public/preview.jpeg)
 
-First, run the development server:
+> Rockets
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Este projeto foi criado para demonstrar minhas habilidades em Next.js 15, utilizando as mais recentes funcionalidades do framework. Ele apresenta informações sobre lançamentos da SpaceX de forma organizada e estilizada, com um design futurista e minimalista. O objetivo principal é destacar minha capacidade de trabalhar com tecnologias modernas e criar interfaces atraentes e funcionais.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🚀 Tecnologias
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- Next.js 15
+- TypeScript
+- Axios
+- Tailwind CSS
+- Git/Github
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+## 💻 O que aprendi
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Aplicação prática das novas funcionalidades do framework, como layouts aninhados e renderização com React Server Components, tornando o projeto mais modular e performático.
+- Consumo da SpaceX API utilizando Axios, incluindo tratamento de erros e formatação de dados recebidos, garantindo uma comunicação eficaz com o backend.
+- Desenvolvimento de um design minimalista e futurista, utilizando classes utilitárias para criar uma interface responsiva e consistente, além de explorar temas customizados para cores escuras.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 📨 Contato
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- guilhermemillerblack@gmail.com
