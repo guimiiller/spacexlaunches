@@ -1,12 +1,6 @@
 import { getLaunchById } from "@/lib/spacexAPI";
 
-interface PageProps {
-  params: {
-    id: string;
-  };
-}
-
-export default async function LaunchDetails({ params }: PageProps) {
+export default async function LaunchDetails({ params }: { params: { id: string } }) {
   const launch = await getLaunchById(params.id);
 
   return (
