@@ -1,4 +1,5 @@
 import { getLaunchById } from "@/lib/spacexAPI";
+import Link from "next/link";
 
 export default async function LaunchDetails({ params }: { params: { id: string } }) {
   const launch = await getLaunchById(params.id);
@@ -10,14 +11,14 @@ export default async function LaunchDetails({ params }: { params: { id: string }
         <p className="text-lg">Data: {new Date(launch.date_utc).toLocaleDateString()}</p>
         <p className="text-lg">Foguete: {launch.rocket}</p>
         {launch.details && <p className="mt-4">{launch.details}</p>}
-        <a
+        <Link
           href="https://www.spacex.com"
           target="_blank"
           rel="noopener noreferrer"
           className="mt-6 inline-block text-blue-500 hover:underline"
         >
           Saiba mais no site oficial
-        </a>
+        </Link>
       </div>
     </div>
   );
